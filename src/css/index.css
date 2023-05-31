@@ -1,0 +1,21 @@
+* {
+    font-family: "Open Sans"
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.presentation {
+    background-image: url('../../public/imgs/bg-first.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    background-position:unset;
+}
+.stats {
+    background-image: url('../../public/imgs/bg-second.jpg');
+    background-size: cover;
+    min-height: 280px;
+    background-position: center;
+}

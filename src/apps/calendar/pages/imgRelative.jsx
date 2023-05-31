@@ -13,6 +13,8 @@ import { useState, useEffect, useRef } from 'react';
 
 import { Header } from '../components/Header';
 
+import './css.css'
+
 
 export const CalendarPage = () => {
 
@@ -38,23 +40,24 @@ export const CalendarPage = () => {
   }, []);
 
   return (
-    <main className="flex flex-wrap w-full justify-center flex-col"
-    style={{overflow:'hidden'}}>
+    <main className="flex flex-wrap w-full justify-center flex-col">
       <Header />
-      <div className="w-full flex justify-center ">
+      <div className="w-full flex justify-center my-1">
         <h3 className="text-xl lg:text-5xl font-bold text-[#053A91]">Calendario</h3>
       </div>
-      <div class='row'>
-        <div class='col-md-3' >
-          <section style={{ margin: 'auto', marginTop: '2%' }}>
-            <img src="imgs/calendario.jpeg" class='eye' width={570} />
-          </section>
-        </div>
-        <div class='col-md-8'>
-          <section style={{ margin: 'auto', marginTop: '2%' }}>
-            <img src="imgs/calendario.png" alt="Conescapan 2023" width={770} />
-          </section>
-        </div>
+      
+      <div class='col' md='2'>
+        <section style={{ margin: 'auto', marginTop: '2%' }}>
+          <img src="imgs/calendario.jpeg" class='eye' width={370} />
+        </section>
+      </div>
+      <div class='col'>
+        <section style={{ margin: 'auto', marginTop: '2%' }}>
+          <img src="imgs/calendario.jpg" alt="Conescapan 2023" width={770} />
+        </section>
+      </div>
+      <div style={{ position: 'relative;' }}>
+        <img src="imgs/calendario.jpg" class='eye' />
       </div>
 
     </main>

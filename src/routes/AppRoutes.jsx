@@ -5,6 +5,7 @@ import { CalendarPage } from "../apps/calendar/pages/CalendarPage"
 import { ConferencePage } from "../apps/conferences/pages/ConferencePage"
 import { VisitsPage } from "../apps/visits/pages/VisitsPage"
 import { WorkshopPage } from "../apps/workshop/pages/WorkshopPage"
+import { Patrocinadores } from "../apps/patrocinadores/pages/Patrocinadores"
 
 
 export const AppRoutes = () => {
@@ -16,6 +17,7 @@ export const AppRoutes = () => {
         <Route path="/papers" element={<PaperPage/>}/>
         <Route path="/technical-visits" element={<VisitsPage/>}/>
         <Route path="/workshops" element={<WorkshopPage/>}/>
+        <Route path="/patrocinadores" element={<Patrocinadores/>}/>
         <Route path="/*" element={<Navigate to={'/'}/>}/>
     </Routes>
   )

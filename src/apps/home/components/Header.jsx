@@ -11,7 +11,7 @@ export const Header = () => {
             <a href="#activities" className='hover:underline text-[#053A91] text-sm md:text-md lg:text-lg px-1'>Actividades</a>
         </div>
         <div className='w-3/12 flex justify-center'>
-            <a href="#" className='hover:underline text-[#053A91] text-sm md:text-md lg:text-lg px-1'>Patrocinadores</a>
+            <a href="patrocinadores" className='hover:underline text-[#053A91] text-sm md:text-md lg:text-lg px-1'>Patrocinadores</a>
         </div>
         <div className='w-3/12 flex justify-center'>
             <a href="#" className='hover:underline text-[#053A91] text-sm md:text-md lg:text-lg px-1'>Noticias</a>

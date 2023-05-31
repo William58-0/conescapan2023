@@ -1,0 +1,16 @@
+img {
+    width: 100;
+    margin: auto;
+}
+
+.container-tabla {
+    height: 10;
+    margin: auto;
+    width: 'full';
+    background-color: red;
+}
+
+table{
+    margin: auto;
+    width: '95%';
+}

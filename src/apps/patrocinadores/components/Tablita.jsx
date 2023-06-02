@@ -15,7 +15,7 @@ export const Tablita = () => {
         </thead>
       </table>
       <div style={{ overflowY: 'scroll', maxHeight:'410px' }}>
-        <table style={{ margin: 'auto', marginTop: '2%', width: '95%' }}>
+        <table style={{ margin: 'auto', marginTop: '0', width: '95%' }}>
           <tbody >
           <tr>
               <td><img src="imgs/patrocinadores/oro_1.jpg" width={275} /></td>

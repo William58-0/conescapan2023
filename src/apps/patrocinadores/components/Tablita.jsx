@@ -20,7 +20,8 @@ export const Tablita = () => {
           <tr>
               <td><img src="imgs/patrocinadores/oro_1.jpg" width={275} /></td>
               <td><img src="imgs/patrocinadores/oro_1.jpg" width={275} /></td>
-              <td><img src="imgs/patrocinadores/plata_1.jpeg" width={275} /></td>
+              <td style={{backgroundColor:'black'}}>
+                <img src="imgs/patrocinadores/plata_1.jpeg" width={275} /></td>
               <td><img src="imgs/patrocinadores/oro_1.jpg" width={275} /></td>
             </tr>
             <tr>

@@ -1,43 +1,44 @@
+import '../css.css';
 
 
 export const Tablita = () => {
   return (
-    <>
-      <table style={{ margin: 'auto', marginTop: '2%', width: '85%' }}>
+    <div>
+      <table style={{ margin: 'auto', marginTop: '2%', width: '95%' }}>
         <thead style={{ textAlign: 'center' }}>
-          <tr>
-            <th scope="col">Platinium</th>
-            <th scope="col">Oro</th>
-            <th scope="col">Plata</th>
-            <th scope="col">Bronce</th>
+          <tr >
+            <th style={{width:'22%'}} scope="col">Platinium</th>
+            <th style={{width:'22%'}} scope="col">Oro</th>
+            <th style={{width:'22%'}} scope="col">Plata</th>
+            <th style={{width:'22%'}} scope="col">Bronce</th>
           </tr>
         </thead>
       </table>
-      <div style={{ overflowY: 'scroll' }}>
-        <table style={{ margin: 'auto', marginTop: '2%', width: '85%' }}>
+      <div style={{ overflowY: 'scroll', maxHeight:'410px' }}>
+        <table style={{ margin: 'auto', marginTop: '2%', width: '95%' }}>
           <tbody >
-            <tr>
-              <td><img src="imgs/patrocinadores/oro_1.jpg" width={200} /></td>
-              <td><img src="imgs/patrocinadores/oro_1.jpg" width={200} /></td>
-              <td><img src="imgs/patrocinadores/oro_1.jpg" width={200} /></td>
-              <td><img src="imgs/patrocinadores/oro_1.jpg" width={200} /></td>
+          <tr>
+              <td><img src="imgs/patrocinadores/oro_1.jpg" width={275} /></td>
+              <td><img src="imgs/patrocinadores/oro_1.jpg" width={275} /></td>
+              <td><img src="imgs/patrocinadores/plata_1.jpeg" width={275} /></td>
+              <td><img src="imgs/patrocinadores/oro_1.jpg" width={275} /></td>
             </tr>
             <tr>
-              <td><img src="imgs/patrocinadores/oro_1.jpg" width={200} /></td>
-              <td><img src="imgs/patrocinadores/oro_1.jpg" width={200} /></td>
-              <td><img src="imgs/patrocinadores/oro_1.jpg" width={200} /></td>
-              <td><img src="imgs/patrocinadores/oro_1.jpg" width={200} /></td>
+              <td><img src="imgs/patrocinadores/oro_1.jpg" width={275} /></td>
+              <td><img src="imgs/patrocinadores/oro_1.jpg" width={275} /></td>
+              <td><img src="imgs/patrocinadores/plata_2.png" width={275} /></td>
+              <td><img src="imgs/patrocinadores/oro_1.jpg" width={275} /></td>
             </tr>
             <tr>
-              <td><img src="imgs/patrocinadores/oro_1.jpg" width={200} /></td>
-              <td><img src="imgs/patrocinadores/oro_1.jpg" width={200} /></td>
-              <td><img src="imgs/patrocinadores/oro_1.jpg" width={200} /></td>
-              <td><img src="imgs/patrocinadores/oro_1.jpg" width={200} /></td>
+              <td><img src="imgs/patrocinadores/oro_1.jpg" width={250} /></td>
+              <td><img src="imgs/patrocinadores/oro_1.jpg" width={250} /></td>
+              <td><img src="imgs/patrocinadores/oro_1.jpg" width={250} /></td>
+              <td><img src="imgs/patrocinadores/oro_1.jpg" width={250} /></td>
             </tr>
           </tbody>
         </table>
       </div>
-    </>
+    </div>
   )
 }
 

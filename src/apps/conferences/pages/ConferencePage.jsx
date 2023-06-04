@@ -1,10 +1,15 @@
-import React from 'react'
+import { Header } from '../components/Header';
+import { Tablita } from '../components/Tablita';
+
 
 export const ConferencePage = () => {
   return (
-    <div>
-      <h1>Conferencias</h1>
-    </div>
+    <main className="overflow-hidden">
+      <Header />
+      <div className="w-full flex justify-center my-1" >
+        <h3 className=" font-bold text-[#053A91]">Conferencistas</h3>
+      </div>
+      <Tablita />
+    </main>
   )
 }
-

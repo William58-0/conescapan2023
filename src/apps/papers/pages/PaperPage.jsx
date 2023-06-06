@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useEffect } from 'react';
 
 import { Header } from '../components/Header';
 import { About } from '../components/About';
@@ -9,27 +9,9 @@ import { Links } from '../components/Links';
 
 
 export const PaperPage = () => {
-
-  const [startAnimation, setStartAnimation] = useState(false);
-
-  const elementoRef = useRef(null);
-
-  const handleScroll = () => {
-    if (elementoRef.current) {
-      const posicionElemento = elementoRef.current.getBoundingClientRect().top;
-      const alturaViewport = window.innerHeight;
-      if (posicionElemento < alturaViewport) {
-        setStartAnimation(true);
-      }
-    }
-  };
-
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <>

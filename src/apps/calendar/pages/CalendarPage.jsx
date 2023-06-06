@@ -1,17 +1,11 @@
-/*
-import React from 'react'
-
-export const CalendarPage = () => {
-  return (
-    <div>
-      <h1>Calendario</h1>
-    </div>
-  )
-}
-*/
 import { Header } from '../components/Header';
+import { useEffect } from "react"
 
 export const CalendarPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div className="flex flex-wrap w-full flex-col"
       style={{ backgroundImage:"url('imgs/calendario.png')", 
